@@ -1,0 +1,6 @@
+1. Create Classlibrary project name as TempService
+2. create a Temp class and write following functions
+	a. CTF(double temp)
+	b. FTD(double temp)
+3. Create NunitTest Projecct and test the functionalaties of TempService.
+4.Create XunitTest Projecct and test the functionalaties of TempService.

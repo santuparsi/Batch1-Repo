@@ -1,0 +1,14 @@
+1.Given an array of numbers. Find  the cube of the numbers that are greater than 100 but less than 1000 using LINQ.
+Change some of the array elements and execute the same query again.
+Hint : use the logical operators of C# to combine the conditions
+2. Given a list of participants for a tennis match. Split the list into 2 equal halves and display all the possible combination of matches possible between the participants in the two lists. A condition is that no player should have an opponent who is from his own his own country.
+3. Create an Order class that has order id, item name, order date and quantity. Create a collection of Order objects. Display the data day wise from most recently ordered to least recently ordered and by quantity from highest to lowest.
+4. For the previous exercise, write a LINQ query that displays the details grouped by the month in the descending order of the order date.
+5. You have created Order class in the previous exercise and that has order id , item name, order date and quantity . Create another class called Item that has item name and  price. Write a LINQ query such that it returns order id, item name, order date and the total price (price * quantity ) grouped by the month in the descending order of the order date.
+6. Do the previous exercise using anonymous types.
+7. Check if all the quantities in the Order collection is >0.
+Get the name of the item that was ordered in largest quantity in a single order. (Hint: use LINQ methods to sort)
+Find if there are any orders placed before Jan of this year.
+8. Rewrite the last two example of that used Count using LINQ query methods entirely.
+9. Given the array of numbers. Count and display even numbers.
+Write LINQ to get the sum of quantities for each item and also find out and display the item that has overall maximum orders.
