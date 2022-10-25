@@ -62,7 +62,8 @@ namespace HandsOnSOLIDPrinciples
             shapes[0] = new Rectangle(12,23);
             shapes[1] = new Circle(12.2);
             AreaCalculator areaCalculator = new AreaCalculator();
-            areaCalculator.TotalArea(shapes);
+            double area=areaCalculator.TotalArea(shapes);
+            Console.WriteLine("Total Area of All Shapes: " + area);
         }
     }
 }

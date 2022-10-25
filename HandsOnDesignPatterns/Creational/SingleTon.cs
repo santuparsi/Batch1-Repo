@@ -43,6 +43,8 @@ namespace DesignPatterns.Creational
             ob.Name = "David";
             SingleTon ob1 = SingleTon.Instance;
             Console.Write(ob1.Name);
+            Console.WriteLine(ob.GetHashCode());
+            Console.WriteLine(ob1.GetHashCode());
             Console.Read();
         }
        
