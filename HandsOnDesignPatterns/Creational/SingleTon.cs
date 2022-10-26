@@ -45,6 +45,10 @@ namespace DesignPatterns.Creational
             Console.Write(ob1.Name);
             Console.WriteLine(ob.GetHashCode());
             Console.WriteLine(ob1.GetHashCode());
+            if(ob==ob1)
+            {
+
+            }
             Console.Read();
         }
        

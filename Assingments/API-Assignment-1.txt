@@ -1,0 +1,14 @@
+1. Create WEB API Project
+2. Create a Entity Movie(MovieId,MovieName,Lang,ReleaseYear,Actor,Director)
+3. Creata a Movie table in the MovieDB using EF code first method
+4. Crata MovieRepo Class and perform following functions
+	a. GetAllMovies
+	b. GetMovieById
+	c. GetMoviesByActor
+	d. GetMoviesByLang
+	e. GetMoviesByDirector
+	f. AddMovie
+	g. EditMovie
+	h. DeleteMovie
+5. Create Movie Controler and invoke MovieRepo functions using diff action methods
+6. Test the Movie Controller actions using Swagger/Postman

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnAPIUsingModels", "HandsOnAPIUsingModels\HandsOnAPIUsingModels.csproj", "{D692A62F-CEE8-41A8-A94E-C88CC3EA81F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D692A62F-CEE8-41A8-A94E-C88CC3EA81F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D692A62F-CEE8-41A8-A94E-C88CC3EA81F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D692A62F-CEE8-41A8-A94E-C88CC3EA81F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D692A62F-CEE8-41A8-A94E-C88CC3EA81F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDA3D25C-936D-4B28-A466-99631C0FFF2E}
+	EndGlobalSection
+EndGlobal

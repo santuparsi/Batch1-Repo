@@ -14,27 +14,25 @@ namespace DesignPatterns.Creational
     public class Villagers : IPeople
     {
 
-       
+
 
         public string GetName()
         {
             return "Village Guy";
         }
 
-        
+
     }
 
     public class CityPeople : IPeople
     {
-
-       
 
         public string GetName()
         {
             return "City Guy";
         }
 
-       
+
     }
 
     public enum PeopleType
@@ -53,7 +51,7 @@ namespace DesignPatterns.Creational
             IPeople people = null;
             switch (type)
             {
-                case PeopleType.RURAL :
+                case PeopleType.RURAL:
                     people = new Villagers();
                     break;
                 case PeopleType.URBAN:
