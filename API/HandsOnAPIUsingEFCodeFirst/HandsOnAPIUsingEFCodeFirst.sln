@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnAPIUsingEFCodeFirst", "HandsOnAPIUsingEFCodeFirst\HandsOnAPIUsingEFCodeFirst.csproj", "{4655B2F7-F284-4A85-B8A6-5E80D7B579DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsOnAPIUsingEFCodeFirst", "HandsOnAPIUsingEFCodeFirst\HandsOnAPIUsingEFCodeFirst.csproj", "{4655B2F7-F284-4A85-B8A6-5E80D7B579DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{1B1EA4CC-BEF5-42F4-967A-CFFC6BF574A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4655B2F7-F284-4A85-B8A6-5E80D7B579DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4655B2F7-F284-4A85-B8A6-5E80D7B579DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4655B2F7-F284-4A85-B8A6-5E80D7B579DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1EA4CC-BEF5-42F4-967A-CFFC6BF574A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1EA4CC-BEF5-42F4-967A-CFFC6BF574A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1EA4CC-BEF5-42F4-967A-CFFC6BF574A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1EA4CC-BEF5-42F4-967A-CFFC6BF574A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
