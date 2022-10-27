@@ -1,0 +1,13 @@
+1. Create a New Database AssignmentDB
+2. Create a new table Book(BookId,BookName,Price,Author,Lang,Publisher)
+3. Create Asp.net Core Rest API Application
+4. Using EF DBfirst approach connect o AssignmentDB and generate entities with in the API project
+5. Create Book Repositroy and perform following functions
+	a. AddBook
+	b. GetBookByName
+	c. GetBooksByAuthor
+	d. DeleteBook
+	e. GetBooksByPublisher
+	f. EditBook
+6. Create a BookController and invoke bookRepo functions using respective action method
+7. Test BookController actions methods using Swagger/PostMan
