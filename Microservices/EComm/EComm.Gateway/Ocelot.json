@@ -1,0 +1,52 @@
+{
+	"Routes": [
+		{
+			"DownstreamPathTemplate": "/api/User",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 49657
+				}
+			],
+			"UpstreamPathTemplate": "/Ecomm/User",
+			"UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+		},
+		{
+			"DownstreamPathTemplate": "/api/User/{catchall}",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 49657
+				}
+			],
+			"UpstreamPathTemplate": "/Ecomm/User/{catchall}",
+			"UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+		},
+		{
+			"DownstreamPathTemplate": "/api/Product",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 8381
+				}
+			],
+			"UpstreamPathTemplate": "/Ecomm/Product",
+			"UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+		},
+		{
+			"DownstreamPathTemplate": "/api/Product/{catchall}",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 8381
+				}
+			],
+			"UpstreamPathTemplate": "/Ecomm/Product/{catchall}",
+			"UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+		}
+	]
+}
